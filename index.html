@@ -40,9 +40,21 @@
             color: #34495E;
             margin-top: 20px;
         }
+        .photo {
+            position: absolute;
+            top: 20px;
+            right: 400px;
+            width: 217px; /* 調整大小 0.7243:1 */
+            height: 300px; 
+            /* border-radius: 50%; */
+            object-fit: cover;
+            border: 3px solid #ccc;
+        }
     </style>
 </head>
 <body>
+
+    <img class="photo" src="profile.jpg" alt="Bo-Han Feng Photo"> <!-- 替換為你的圖片路徑 -->
 
     <h1>Bo-Han Feng</h1>
     <div class="contact-info">
@@ -69,6 +81,32 @@
     <div class="section">
         <div class="section-title">Research Interests</div>
         <p>Deep Learning, Natural Language Processing, Retrieval-Augmented Generation, Autonomous AI Agents, Virtual Humans, Spoken Language Models</p>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Research Experiences</div>
+        <ul>
+            <li><strong>NTU Machine Discovery and Social Network Mining Lab</strong> (Sep. 2023 – Present)
+                <ul>
+                    <li>Advisor: Prof. Shou-De Lin</li>
+                    <li>Enhancing performance and training efficiency of language models via token rearrangement. (Co-first author, submitted to ACL 2025)</li>
+                </ul>
+            </li>
+            <li><strong>NTU Multimedia Information Retrieval Lab</strong> (Sep. 2023 – Present)
+                <ul>
+                    <li>Advisor: Prof. Jyh-Shing Roger Jang</li>
+                    <li>Developing <a href="https://hpc.psy.ntu.edu.tw/taihuintro/">TAIHUCAIS</a> (TAIwan HUmanities Conversational AI Knowledge Discovery System) for literary and historical researchers.</li>
+                </ul>
+            </li>
+            <li><strong>NTU Speech Processing and Machine Learning Lab</strong> (Sep. 2024 – Present)
+                <ul>
+                    <li>Advisor: Prof. Hung-Yi Lee</li>
+                    <li>Training and evaluating models using s3prl toolkits.</li>
+                    <li>Benchmarking spoken language models on speech processing tasks.</li>
+                    <li>Annotating Chinese spoken hate speech data. (Submitted to Interspeech 2025)</li>
+                </ul>
+            </li>
+        </ul>
     </div>
 
     <div class="section">
